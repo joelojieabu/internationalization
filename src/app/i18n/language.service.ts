@@ -11,7 +11,7 @@ export class LanguageService {
   constructor(private translate: TranslateService) {
     // Initialize with browser language or default to English
     const browserLang = translate.getBrowserLang() || 'en';
-    const supportedLangs = ['en', 'es', 'fr'];
+    const supportedLangs = ['en', 'yo', 'fr'];
 
     const defaultLang = supportedLangs.includes(browserLang)
       ? browserLang
@@ -34,7 +34,7 @@ export class LanguageService {
   getAvailableLanguages(): { code: string; name: string }[] {
     return [
       { code: 'en', name: 'English' },
-      { code: 'es', name: 'Español' },
+      { code: 'yo', name: 'Yoruba' },
       { code: 'fr', name: 'Français' },
     ];
   }

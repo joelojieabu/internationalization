@@ -15,9 +15,11 @@ import { LanguageSelectorComponent } from '../language-selector/language-selecto
           routerLink="/"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
-          >Home</a
+          >{{ 'HEADER.HOME' | translate }}</a
         >
-        <a routerLink="/about" routerLinkActive="active">About</a>
+        <a routerLink="/about" routerLinkActive="active">{{
+          'HEADER.ABOUT' | translate
+        }}</a>
       </nav>
       <app-language-selector></app-language-selector>
     </header>
