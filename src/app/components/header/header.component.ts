@@ -33,10 +33,12 @@ import { LanguageSelectorComponent } from '../language-selector/language-selecto
         padding: 1rem;
         background-color: #f5f5f5;
         border-bottom: 1px solid #ddd;
+        flex-wrap: wrap;
       }
       nav {
         display: flex;
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 1rem;
       }
       a {
         text-decoration: none;
