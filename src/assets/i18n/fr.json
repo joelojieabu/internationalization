@@ -1,0 +1,15 @@
+{
+  "HEADER": {
+    "TITLE": "Mon Application Angular",
+    "LANGUAGE": "Langue"
+  },
+  "HOME": {
+    "WELCOME": "Bienvenue dans notre application!",
+    "DESCRIPTION": "Ceci est une application Angular internationalisée utilisant des composants autonomes.",
+    "SWITCH_LANGUAGE": "Changer de Langue"
+  },
+  "ABOUT": {
+    "TITLE": "À Propos de Nous",
+    "CONTENT": "Nous sommes une équipe dédiée à la création d'excellentes applications Angular."
+  }
+}
