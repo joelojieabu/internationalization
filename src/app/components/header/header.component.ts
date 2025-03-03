@@ -27,11 +27,14 @@ import { LanguageSelectorComponent } from '../language-selector/language-selecto
   styles: [
     `
       header {
+        font-family: 'Lato', serif;
+        font-weight: 300;
+        font-style: italic;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
-        background-color: #f5f5f5;
+        background-color:'rgba(54, 162, 235, 0.7)';
         border-bottom: 1px solid #ddd;
         flex-wrap: wrap;
       }
